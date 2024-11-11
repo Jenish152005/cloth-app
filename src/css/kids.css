@@ -1,0 +1,65 @@
+/* KidsSection.css */
+.kids-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .kids-section h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  .kids-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .kids-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .kids-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .kids-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .kids-item p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .kids-item button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .kids-item button:hover {
+    background-color: #555;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .kids-item {
+      width: 90%; /* Full width on smaller screens */
+    }
+  }

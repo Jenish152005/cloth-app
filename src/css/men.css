@@ -1,0 +1,65 @@
+/* MenSection.css */
+.men-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .men-section h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  .men-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .men-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .men-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .men-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .men-item p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .men-item button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .men-item button:hover {
+    background-color: #555;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .men-item {
+      width: 90%; /* Full width on smaller screens */
+    }
+  }

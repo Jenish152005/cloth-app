@@ -1,0 +1,65 @@
+/* WomenSection.css */
+.women-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .women-section h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  .women-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .women-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .women-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .women-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .women-item p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .women-item button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .women-item button:hover {
+    background-color: #555;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .women-item {
+      width: 90%; /* Full width on smaller screens */
+    }
+  }
